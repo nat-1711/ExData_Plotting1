@@ -1,7 +1,8 @@
-### Course Poroject - Exploratory analysis ###
+### Course Project - Exploratory analysis ###
 
 
-setwd("C:/Users/natal/OneDrive/Escritorio/Coursera/Data")
+setwd("C:/Users/natal/OneDrive/Escritorio/Coursera/CourseProject1_ExplAn/ExData_Plotting1")
+#set the directory where we downloaded the data (new project folder)
 
 data <- read.csv("household_power_consumption.txt", sep = ";", na.strings = "?", 
                  colClasses=c("character","character","numeric","numeric","numeric","numeric","numeric","numeric","numeric"))
